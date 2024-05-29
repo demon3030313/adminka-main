@@ -1,6 +1,6 @@
 // Вместо нашего адреса вставь свой
 // Можно ещё не удалять адреса с localhost, но мы удалили для краткости
-const allowedCors = ["https://yandexpindiefrontend.nomoredomainswork.ru/", "localhost"];
+const allowedCors = ["https://hikkback.nomorepartiesco.ru/", "localhost"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
@@ -14,3 +14,7 @@ function cors(req, res, next) {
 }
 
 module.exports = cors;
+
+
+
+
