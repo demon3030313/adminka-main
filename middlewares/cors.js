@@ -1,6 +1,6 @@
 // Вместо нашего адреса вставь свой
 // Можно ещё не удалять адреса с localhost, но мы удалили для краткости
-const allowedCors = ["https://hikkback.nomorepartiesco.ru/", "localhost"];
+const allowedCors = ["https://hikkfront.nomorepartiesco.ru/", "localhost"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
